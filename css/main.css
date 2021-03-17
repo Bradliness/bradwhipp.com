@@ -1,0 +1,148 @@
+/***** base styles *****/
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+html {
+	font-size: 16px;
+}
+
+body {
+background: linear-gradient(-45deg, #a9cf6d, #7fb381, #7fb2b3, #9ab31e);
+background-size: 400% 400%;
+animation: gradient 25s ease infinite;
+}
+.comingsoon {
+  font-size: 3em;
+  padding: 100px;
+}
+.comingsoon  h1{
+   display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #342
+
+
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+footer {
+  text-align: center;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+footer p {
+  font-size: 55px;
+  margin: 0,auto;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailto {
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+}
+
+
+}
+
+
+a {
+  width: 25px;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/
