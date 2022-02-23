@@ -49,9 +49,9 @@ html {
 }
 
 body {
-background: linear-gradient(-45deg, #a9cf6d, #7fb381, #7fb2b3, #9ab31e);
+background: linear-gradient(-45deg, #15b393, #7fb381, #7fb2b3,#8250e6);
 background-size: 400% 400%;
-animation: gradient 25s ease infinite;
+animation: gradient 22s ease infinite;
 }
 .comingsoon {
   font-size: 3em;
@@ -61,8 +61,7 @@ animation: gradient 25s ease infinite;
    display:flex;
   align-items: center;
   justify-content: center;
-  color: #342
-
+  color: #2e4733;
 
 }
 
@@ -88,7 +87,7 @@ footer {
 }
 
 footer p {
-  font-size: 55px;
+  font-size: 65px;
   margin: 0,auto;
   display: flex;
   justify-content:center;
@@ -103,20 +102,33 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  color: #7e8a79;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p :hover {
+  left: 10px;
+  background-color: #434061;
+  border-radius:100%
+
+
 }
 
 .mailto {
   font-size: 1.8em;
   display: flex;
   justify-content: center;
+  padding-top: 80px;
 }
 
-
+.mailto :hover {
+  left: 10px;
+  background-color: #a8d498;
 }
 
+}
 
 a {
   width: 25px;
